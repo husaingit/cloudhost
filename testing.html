@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <style>
+        .functional-buttons ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .functional-buttons ul li {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        
+        .functional-buttons .login-btn:hover {
+            background-color: white;
+            border: 2px solid white;
+            color: black;
+        }
+        
+        .functional-buttons .login-btn.scr {
+            background-color: white;
+            color: #00a4b9;
+            border: 2px solid #00a4b9;
+        }
+        
+        .functional-buttons .login-btn.scr:hover {
+            background-color: #00a4b9;
+            color: white;
+        }
+        
+        .functional-buttons ul li:first-child a {
+            display: inline-block;
+            background-color: transparent;
+            border: 2px solid #fff;
+            text-transform: uppercase;
+            font-size: 13px;
+            color: #fff;
+            padding: 6px 20px;
+            letter-spacing: 0.5px;
+            transition: all 0.5s;
+        }
+        
+        .functional-buttonss ul li:first-child a {
+            display: inline-block;
+            background-color: transparent;
+            border: 2px solid #00a4b9;
+            text-transform: uppercase;
+            font-size: 13px;
+            color: #00a4b9;
+            padding: 6px 20px;
+            letter-spacing: 0.5px;
+            transition: all 0.5s;
+        }
+        
+        .functional-buttons ul li:last-child a {
+            display: inline-block;
+            background-color: #00bcd4;
+            border: 2px solid #00bcd4;
+            text-transform: uppercase;
+            font-size: 13px;
+            color: #fff;
+            padding: 6px 20px;
+            letter-spacing: 0.5px;
+            transition: all 0.5s;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav collapse-navbar">
+                        <li class="nav-item">
+                            <a class="nav-link navlinktext" href="index.html">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinktext" href="about.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link navlinktext" href="service.html">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinktext" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlinktext" href="contact.html">Contact Us</a>
+                        </li>
+
+                    </ul>
+                    <div class="functional-buttons">
+                        <ul>
+                            <li>
+                                <a href="#" class="login-btn">Log in</a>
+
+                            </li>
+                            <li>
+                                <a href="#">Sign Up</a>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>
+        $(window).scroll(function() {
+            $('.functional-buttons .login-btn').toggleClass('scr', $(this).scrollTop() > 150);
+        });
+    </script>
+</body>
+
+</html>

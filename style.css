@@ -1,0 +1,740 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+.bgimg {
+    background-image: url(ban.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+
+.aboutimg {
+    background-image: url(about.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+}
+
+.abc {
+    background-color: rgba(255, 0, 0, 0)!important;
+    padding-top: 20px;
+    transition: 500ms;
+    color: white!important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.664);
+}
+
+.abc .scrolled {
+    background: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand {
+    color: white!important;
+}
+
+.navbar-light .navbar-nav .nav-link.scroll {
+    color: black !important;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand.sc {
+    color: black !important;
+}
+
+.navbar.scrolled {
+    background: rgb(255, 255, 255)!important;
+}
+
+.navbar-toggler {
+    background-color: white!important;
+}
+
+.functional-buttons ul {
+    margin: 0;
+    padding: 0;
+}
+
+.functional-buttons ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.functional-buttons .login-btn:hover {
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+}
+
+.functional-buttons .login-btn.scr {
+    background-color: white;
+    color: #00a4b9;
+    border: 2px solid #00a4b9;
+}
+
+.functional-buttons .login-btn.scr:hover {
+    background-color: #00a4b9;
+    color: white;
+}
+
+.functional-buttons ul li:first-child a {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    padding: 6px 20px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+
+.functional-buttonss ul li:first-child a {
+    display: inline-block;
+    background-color: transparent;
+    border: 2px solid #00a4b9;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #00a4b9;
+    padding: 6px 20px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+
+.functional-buttons ul li:last-child a {
+    display: inline-block;
+    background-color: #00bcd4;
+    border: 2px solid #00bcd4;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #fff;
+    padding: 6px 20px;
+    letter-spacing: 0.5px;
+    transition: all 0.5s;
+}
+
+@media (min-width:990px) {
+    #navbarSupportedContent {
+        margin-left: 230px;
+    }
+}
+
+.banner {
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+
+.banner h2 {
+    font-size: 42px;
+}
+
+.banner h1 {
+    font-size: 50px;
+}
+
+.frst .btn {
+    transition: 0.6s;
+}
+
+.car {
+    background-color: #f7f7f7;
+    ;
+}
+
+.car img {
+    width: 70%!important;
+    padding: 10px;
+}
+
+.owl-dots {
+    display: none!important;
+}
+
+.serv {
+    background-color: rgba(236, 242, 243, 0.568);
+    border: 10px solid white;
+    padding: 50px 0px 50px 0px;
+    border-radius: 15px;
+}
+
+
+/*
+
+owl carousel part shuru hua hai
+*/
+
+.owl-stage {
+    transform: translate3d(-1380px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: 5175px;
+}
+
+
+/*owl carousel khtm */
+
+.rowsetting {
+    margin: 80px 0px;
+}
+
+.rowsetting h2 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imgsetting {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background: #00bcda;
+    margin: auto;
+}
+
+.service-item h4 {
+    padding: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.iconn {
+    margin-top: 25px;
+}
+
+.section-heading span {
+    color: #00bcda;
+    font-weight: 700;
+}
+
+.rowsetting p {
+    padding: 10px;
+    color: grey!important;
+}
+
+.background-image-pricing {
+    background-image: url(ban.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    position: absolute;
+    width: 100%;
+}
+
+.pricing-section .section-heading {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.section-heading {
+    margin-bottom: 80px;
+}
+
+.section-heading h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.pricing-item ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.pricing-item ul li {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #6a6a6a;
+}
+
+.pricing-item a.main-button,
+.pricing-item a.gradient-button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+
+a.main-button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 25px;
+    border: none;
+    background-color: #00bcd4;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a.gradient-button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 25px;
+    border: none;
+    background: linear-gradient(145deg, rgba(50, 100, 245, 1) 0%, rgba(114, 2, 187, 1) 100%);
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.pricing-section .section-heading p {
+    color: #fff;
+}
+
+.pricing-item {
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 50px 30px 50px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+}
+
+.pricing-item .price {
+    background-color: #00bcd4;
+    width: 100%;
+    padding: 30px 0px;
+    margin-bottom: 35px;
+}
+
+.dev {
+    width: 100%;
+    height: 3px;
+    background-color: #eee;
+    margin: 35px 0px 30px 0px;
+}
+
+.feature-section .feature-item {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.feature-section .feature-item .icon {
+    float: left;
+    margin-top: 14px;
+}
+
+.feature-section .feature-item p {
+    margin-left: 106px;
+}
+
+.feature-section .feature-item h4 {
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.testimonials-section {
+    margin-top: 20px;
+    background-color: rgb(219, 223, 226);
+}
+
+.quotes {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: #00bcd4;
+}
+
+.slideshow-container {
+    position: relative;
+    background: rgb(219, 223, 226)
+}
+
+
+/* Slides */
+
+.mySlides {
+    display: none;
+    text-align: -webkit-center;
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+/* Position the "next button" to the right */
+
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
+/* The dot/bullet/indicator container */
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: rgb(219, 223, 226);
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+/* Add a background color to the active dot/circle */
+
+.dot:hover {
+    background-color: #717171;
+}
+
+
+/* Add an italic font style to all quotes */
+
+q {
+    font-style: italic;
+}
+
+
+/* Add a blue color to the author */
+
+.author {
+    color: cornflowerblue;
+}
+
+footer {
+    background-image: url(footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0px 80px 0px;
+    background-position: center center;
+}
+
+footer .footer-heading h2 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: white;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+footer ul li {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+footer ul li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+footer .sub-footer {
+    text-align: center;
+    padding-top: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.397);
+}
+
+footer ul li a:hover {
+    color: white;
+}
+
+.sub-footer a:hover {
+    color: white;
+}
+
+
+/*tabs ki css */
+
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#tabs {
+    color: rgb(0, 0, 0);
+}
+
+#tabs h6.section-title {
+    color: rgb(0, 0, 0);
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #00bcd4!important;
+    background-color: transparent;
+    border-bottom: 2px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #f7f7f7a6!important;
+}
+
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px!important;
+}
+
+.navbar-toggler-icon {
+    color: #00bcd4!important;
+    background-color: #00bcd4!important;
+}
+
+
+/*about section*/
+
+.about {
+    background-color: #f7f7f7a8;
+}
+
+.about .row {
+    margin-top: 100px;
+}
+
+.about-item span {
+    color: #00bcd4;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.about-item h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/*team */
+
+.team {
+    margin-top: 80px;
+}
+
+
+/*card ki css*/
+
+.card img:hover {
+    opacity: 0.7;
+    transition: 0.9s;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card img {
+    height: 280px;
+}
+
+@media (max-width:770px) {
+    .card img {
+        height: 220px;
+    }
+}
+
+.form-control::placeholder {
+    color: grey!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-form .btn {
+    background-color: #00bcd4;
+    border: none;
+    padding: 10px;
+}
+
+.contact-form,
+.cont {
+    padding-top: 50px;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.cont {
+    padding-left: 20px;
+}
+
+.map-container {
+    margin-top: 10%;
+    overflow: hidden;
+    position: relative;
+    height: 0;
+}
+
+.map-container iframe {
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+}
+
+.form-group {
+    padding-bottom: 15px;
+}
+
+.form-group input,
+textarea {
+    width: 90%!important;
+    border-radius: 0%!important;
+    font-size: 20px;
+}
+
+.contact-text span {
+    color: #00bcd4;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.contact-text h2 {
+    color: black;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+/*icons ki css*/
+
+.ct {
+    width: 60px;
+    height: 60px;
+    background-color: #00bcd4;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.last {
+    padding: 10px;
+}
+
+#loading {
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0) url('loading.gif') no-repeat center;
+    position: fixed;
+    z-index: 999999;
+}
+
+.collapse>button:hover {
+    background-color: #00bcd4!important;
+}
+
+.btn-grad2 {
+    background-color: #00bcda!important;
+    border-radius: 0px!important;
+    border-color: none!important;
+    color: #eee!important;
+}
+
+.author {
+    color: #00bcda;
+}
+
+.lol {
+    color: white;
+    border: 2px solid white;
+}
+
+.team-font p {
+    color: #00bcda!important;
+}
+
+.team-font h5 {
+    font-weight: bold;
+    font-size: 18px!important;
+}
+
+.card {
+    border: none!important;
+}
+
+.card-changes {
+    background-color: #f8f8f8a1;
+    border: none;
+}
+
+.faq img {
+    border-radius: 5% 5% 50% 50%;
+    margin-bottom: 40px;
+}
+
+.faq img:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+}
